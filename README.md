@@ -1,1 +1,1 @@
-# landing-page-odin
+This project is part of The Odin Project
