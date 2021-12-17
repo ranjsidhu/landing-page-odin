@@ -1,0 +1,43 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', 'Helvetica';
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.right .links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    padding-right: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
