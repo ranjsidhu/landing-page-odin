@@ -19,14 +19,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 .right .links {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
-    padding-right: 200px;
+    padding-right: 150px;
 }
 
 a {
@@ -45,3 +45,20 @@ ul {
     align-items: center;
     gap: 16px;
   }
+
+.container-one {
+    background-color: #1F2937;
+}
+
+#hero-text-primary {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding-left: 150px;
+}
+
+#hero-text-secondary {
+    padding-left: 150px;
+    opacity: 0.7;
+}
