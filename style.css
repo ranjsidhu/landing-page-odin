@@ -1,5 +1,7 @@
 body {
     background-color: #1F2937;
+    padding: 0;
+    margin: 0;
     color: white;
     font-family: 'Roboto', 'Helvetica';
 }
@@ -127,4 +129,33 @@ ul {
 
 .info {
     max-width: 200px;
+}
+
+/* Container three */
+
+.container-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.italic-quote {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Roboto', arial;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 200px;
+}
+
+.by-thor {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 150px;
 }
