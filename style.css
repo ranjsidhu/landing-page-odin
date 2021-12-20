@@ -164,19 +164,45 @@ ul {
 /* Container four */
 
 .container-four {
-    background-color: #F9FAF8;
-    text-align: center;
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
     display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
 }
 
 .content-four {
+    flex: 1;
+    text-align: left;
+}
+
+.content-four p {
+    margin: 5px 30px 30px 50px;
+    opacity: 0.7;
+}
+
+h4 {
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.sign-up-four {
+    display: block;
+    text-align: center;
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    border: 1px solid #F9FAF8;
+    padding: 5px 25px;
+    font-weight: bold;
 }
 /* Footer */
 
 .footer {
-    background-color: #1F2937;
-    /* font-size: 18px; */
+    background-color: #F9FAF8;
+    color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
